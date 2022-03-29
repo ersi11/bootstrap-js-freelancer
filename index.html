@@ -21,14 +21,21 @@
                 <div class="col">
 
         
-                        <div class="p-3 bg-dark text-info">
-                        
-                            <span>Portofolio</span>
-                        
-                            <span>CONTACT ME</span>
+                    <div class="navbar bg-dark text-info px-3 text-center " >
+                       
+                        <div class="navbar-text">
+                            
+                            <span>Portfolio</span>
                         
                         </div>
                         
+                        <div class="navbar-text">
+                            
+                            <span><ins>CONTACT ME</ins></span>
+                        
+                        </div>
+                   
+                    </div>
                         
                         <div class="bg-info p-5" style="text-align: center;">
                             
@@ -48,23 +55,24 @@
    
     <!-- PRIMO BLOCCO conteiner immagini-->
    
-    <div class="container py-5">
+    <div class="container py-3">
         
         <h2 style="text-align: center;">PORFTOLIO</h2>
         
-        <div class="row text-center">
+        <div class="row py-2 text-center ">
             
             <div class="col-4">
               
                 <div class="card">
                    
-                    <img src="img/portfolio/cabin.png" class="card-img-top" alt="Foto di una baita">
+                    <img src="img/portfolio/cabin.png" class="card-img-top" alt="Foto baita">
                    
                     <div class="card-body">
                         
                         <h5 class="card-title">Cabin Website</h5>
                       
-                        <button class="btn btn-info mx-2">Preview</button><button class="btn  btn-outline-info mx-2">Visit site</button>
+                        <button class="btn btn-info mx-2">Preview</button>
+                        <button class="btn  btn-outline-info mx-2">Visit site</button>
                    
                     </div>
               
@@ -76,7 +84,7 @@
                 
                 <div class="card">
                     
-                    <img src="img/portfolio/cake.png" class="card-img-top" alt="Foto di una torta">
+                    <img src="img/portfolio/cake.png" class="card-img-top" alt="Foto torta">
                    
                     <div class="card-body">
                       
@@ -94,7 +102,7 @@
                 
                 <div class="card">
                   
-                    <img src="img/portfolio/circus.png" class="card-img-top" alt="Foto di un circo">
+                    <img src="img/portfolio/circus.png" class="card-img-top" alt="Foto circo">
                   
                     <div class="card-body">
                        
@@ -116,7 +124,7 @@
                
                 <div class="card">
                   
-                    <img src="img/portfolio/game.png" class="card-img-top" alt="Foto di un controller da gioco">
+                    <img src="img/portfolio/game.png" class="card-img-top" alt="Foto controller">
                    
                     <div class="card-body">
                        
@@ -169,6 +177,97 @@
         </div>
     
 
+    </div>
+
+
+
+    <div class="container bg-info">
+
+        <div class="row">
+            
+            <p class="text-center fs-2 fw-bold mt-3">WANT AN OFFER?</p>
+            
+            <div class="col">
+
+                    <form class="row g-3">
+                        
+                        <div class="col-md-6">
+                          
+                            <label for="inputFirstName" class="form-label">First Name</label>
+                          <input type="text" class="form-control" id="FirstName" placeholder="Antonio">
+                       
+                        </div>
+                       
+                        <div class="col-md-6">
+                            
+                            <label for="inputLastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="inputLastName" placeholder="Rossi">
+                        
+                        </div>
+                        
+                        <div class="col-6">
+                          
+                            <label for="inputEmailAddress" class="form-label">Email address</label>
+                            <input type="text" class="form-control" id="inputEmailAddress" placeholder="rossi@gmail.com">
+                        
+                        </div>
+                       
+                        <div class="col-6">
+                          
+                            <label for="inputHoursRequested" class="form-label">Hours requested</label>
+                            <input type="text" class="form-control" id="inputHoursRequested" placeholder="8">
+                        
+                        </div>
+                       
+                        <div class="col-md-6">
+                            
+                            <label for="inputState" class="form-label">Type of work</label>
+                            
+                            <select id="inputState" class="form-select">
+                                
+                                <option selected>Choose</option>
+                                <option>Project Analysis</option>
+                                <option>Frontend Developer</option>
+                                <option>Backend Developer</option>
+
+                            </select>
+                        
+                        </div>
+
+                        <div class="col-md-6">
+                            
+                            <label for="inputCity" class="form-label">Discount Code</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="QXKBL56">
+                        
+                        </div>
+                        
+                        <div>
+                            
+                            <label class="form-label" for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Scrivi qui..."></textarea>
+                            <div class="text-center">
+                            <button class="btn btn-warning my-2" id="send">Send</button></div>
+                        
+                        </div>
+
+                        <h3 id="Risultato">....</h3>
+
+                    </form>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="footer text-muted mt-auto py-3 bg-dark text-center">
+                <p class="text-muted fs-2 mt-4">LOCATION</p>
+                <p>2215 John Daniel Drive</p>
+                <p>Clark, MO 65243</p>
+            </div>
+            <div class="footer mt-auto py-3 bg-dark text-muted text-center">
+                <p>Copyright &copy Your Website 2021</p>
+            </div>
+
+        </div>
+   
     </div>
     
     <!-- My JS file -->
